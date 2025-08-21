@@ -25,7 +25,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="border-t border-border py-6">
+    <footer className="border-t border-border py-6 ">
       <div className="container mx-auto px-4">
         {/* Main Footer Content - Redesigned for compact layout */}
         <div className="flex flex-col md:flex-row justify-between items-start gap-4">
@@ -44,9 +44,8 @@ const Footer = () => {
             </div>
             
             {/* Navigation Links - Updated to display in a simple line */}
-            <div className="flex items-center">
-              <nav className="flex space-x-6">
-                <a href="#home" className="text-xs text-foreground/70 hover:text-primary transition-colors hover:translate-y-[-1px] inline-block">Home</a>
+            <div className="flex items-center ">
+              <nav className="sm:flex space-x-6 flex-col" >                <a href="#home" className="text-xs text-foreground/70 hover:text-primary transition-colors hover:translate-y-[-1px] inline-block">Home</a>
                 <a href="#projects" className="text-xs text-foreground/70 hover:text-primary transition-colors hover:translate-y-[-1px] inline-block">Projects</a>
                 <a href="#tech-stack" className="text-xs text-foreground/70 hover:text-primary transition-colors hover:translate-y-[-1px] inline-block">Tech Stack</a>
                 <a href="#experience" className="text-xs text-foreground/70 hover:text-primary transition-colors hover:translate-y-[-1px] inline-block">Experience</a>

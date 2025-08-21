@@ -111,7 +111,7 @@ const Hero = () => {
   };
   
   return (
-    <section id="home" className="min-h-screen flex items-center pt-28 pb-16 overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center pt-28 pb-16 overflow-hidden ">
       {/* Animated floating tech icons - smoother independent movement */}
       <div className="fixed inset-0 pointer-events-none ">
         {techIcons.map((tech) => (

@@ -27,6 +27,7 @@ const App = () => {
     { component: <GitHubStats />, order: SECTION_NUMBERS.GITHUB_STATS },
     { component: <TechStack />, order: SECTION_NUMBERS.TECH_STACK },
     { component: <Education />, order: SECTION_NUMBERS.EDUCATION },
+  
     { component: <Contact />, order: SECTION_NUMBERS.CONTACT }
   ];
 
@@ -38,7 +39,7 @@ const App = () => {
       <PortfolioProvider>
         <div className="min-h-screen bg-background text-foreground">
           <BackgroundEffect />
-          <div className="min-h-screen relative z-10 bg-transparent">
+          <div className="min-h-screen relative z-10 bg-transparent ">
 
           <Header />
           
@@ -51,7 +52,7 @@ const App = () => {
           
           <Footer />
           <Toaster />
-          <TemplateSwitcher />
+          {/* <TemplateSwitcher /> */}
         </div>
         </div>
       </PortfolioProvider>

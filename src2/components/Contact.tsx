@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Mail, Github, Linkedin, Send } from "lucide-react";
 import { motion } from "framer-motion";
-import { usePortfolio } from "@/hooks/PortfolioContext";
-import { DEFAULT_USER, DEFAULT_SOCIAL } from "@/config/env";
-import { useToast } from "@/hooks/use-toast";
+import { usePortfolio } from "../../src/hooks/PortfolioContext";
+import { DEFAULT_USER, DEFAULT_SOCIAL } from "../../src/config/env.ts";
+import { useToast } from "../../src/hooks/use-toast.ts";
 
 // Firebase
-import { db } from "@/firebase";
+import { db } from "../../src/firebase.ts";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 const Contact = () => {
@@ -76,103 +76,111 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20">
-      <div className="container mx-auto px-4">
-        <div className="mx-auto px-4 relative w-4/5">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
           {/* Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-12 sm:mb-16">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                Get In Touch
+              </h2>
+              <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto px-4">
                 Have a project in mind or want to discuss potential
                 opportunities? Feel free to reach out.
               </p>
             </motion.div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16">
             {/* Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
+              className="order-2 lg:order-1"
             >
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-sm font-medium mb-2"
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card/50 focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="Your name"
-                    required
-                  />
-                </div>
+              <div className="bg-card/50 border border-border rounded-xl p-6 mb-3 sm:p-8">
+                <h3 className="text-xl sm:text-2xl font-bold mb-6">
+                  Send a Message
+                </h3>
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div>
+                    <label
+                      htmlFor="name"
+                      className="block text-sm font-medium mb-2"
+                    >
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      className="w-full px-4 py-3 rounded-lg border border-border bg-card/50 focus:outline-none focus:ring-2 focus:ring-primary/50 text-sm sm:text-base"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
 
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-sm font-medium mb-2"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card/50 focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="Your email"
-                    required
-                  />
-                </div>
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium mb-2"
+                    >
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      className="w-full px-4 py-3 rounded-lg border border-border bg-card/50 focus:outline-none focus:ring-2 focus:ring-primary/50 text-sm sm:text-base"
+                      placeholder="Your email"
+                      required
+                    />
+                  </div>
 
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium mb-2"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card/50 focus:outline-none focus:ring-2 focus:ring-primary/50 min-h-[150px]"
-                    placeholder="Your message"
-                    required
-                  />
-                </div>
+                  <div>
+                    <label
+                      htmlFor="message"
+                      className="block text-sm font-medium mb-2"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      className="w-full px-4 py-3 rounded-lg border border-border bg-card/50 focus:outline-none focus:ring-2 focus:ring-primary/50 min-h-[120px] sm:min-h-[150px] text-sm sm:text-base resize-y"
+                      placeholder="Your message"
+                      required
+                    />
+                  </div>
 
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2"
-                >
-                  {isSubmitting ? (
-                    <>
-                      <div className="animate-spin rounded-full h-4 w-4 border-t-2 border-b-2 border-primary-foreground"></div>
-                      <span>Sending...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Send size={18} />
-                      <span>Send Message</span>
-                    </>
-                  )}
-                </button>
-              </form>
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <div className="animate-spin rounded-full h-4 w-4 border-t-2 border-b-2 border-primary-foreground"></div>
+                        <span>Sending...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Send size={18} />
+                        <span>Send Message</span>
+                      </>
+                    )}
+                  </button>
+                </form>
+              </div>
             </motion.div>
 
             {/* Contact Info */}
@@ -180,19 +188,21 @@ const Contact = () => {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
+              className="order-1 lg:order-2 space-y-6"
             >
-              <div className="p-8 rounded-xl border border-border bg-card/50">
-                <h3 className="text-2xl font-bold mb-6">Contact Info</h3>
+              {/* Contact Details Card */}
+              <div className="p-6 sm:p-8 rounded-xl border border-border bg-card/50">
+                <h3 className="text-xl sm:text-2xl font-bold mb-6">Contact Info</h3>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-full bg-primary/10 text-primary">
-                      <Mail size={24} />
+                    <div className="p-2 sm:p-3 rounded-full bg-primary/10 text-primary flex-shrink-0">
+                      <Mail size={20} className="sm:w-6 sm:h-6" />
                     </div>
-                    <div>
-                      <h4 className="text-lg font-medium">Email</h4>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-base sm:text-lg font-medium mb-1">Email</h4>
                       <a
                         href={`mailto:${contactEmail}`}
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="text-muted-foreground hover:text-primary transition-colors text-sm sm:text-base break-all"
                       >
                         {contactEmail}
                       </a>
@@ -200,69 +210,77 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-full bg-primary/10 text-blue-500">
-                      <Linkedin size={24} />
+                    <div className="p-2 sm:p-3 rounded-full bg-primary/10 text-blue-500 flex-shrink-0">
+                      <Linkedin size={20} className="sm:w-6 sm:h-6" />
                     </div>
-                    <div>
-                      <h4 className="text-lg font-medium">LinkedIn</h4>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-base sm:text-lg font-medium mb-1">LinkedIn</h4>
                       <a
                         href={linkedinUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-blue-500 transition-colors"
+                        className="text-muted-foreground hover:text-blue-500 transition-colors text-sm sm:text-base break-all"
                       >
-                        linkedin.com/in/{linkedinUsername}
+                        <span className="hidden sm:inline">linkedin.com/in/</span>
+                        <span className="sm:hidden">@</span>
+                        {linkedinUsername}
                       </a>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-full bg-primary/10 text-gray-300">
-                      <Github size={24} />
+                    <div className="p-2 sm:p-3 rounded-full bg-primary/10 text-gray-300 flex-shrink-0">
+                      <Github size={20} className="sm:w-6 sm:h-6" />
                     </div>
-                    <div>
-                      <h4 className="text-lg font-medium">GitHub</h4>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-base sm:text-lg font-medium mb-1">GitHub</h4>
                       <a
                         href={githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-gray-300 transition-colors"
+                        className="text-muted-foreground hover:text-gray-300 transition-colors text-sm sm:text-base break-all"
                       >
-                        github.com/{githubUsername}
+                        <span className="hidden sm:inline">github.com/</span>
+                        <span className="sm:hidden">@</span>
+                        {githubUsername}
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-card/50 border border-border rounded-xl p-8 mt-6">
-                <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
-                <p className="text-muted-foreground mb-6">
+              {/* Let's Connect Card */}
+              <div className="bg-card/50 border border-border rounded-xl p-6 sm:p-8">
+                <h3 className="text-xl sm:text-2xl font-bold mb-4">Let's Connect</h3>
+                <p className="text-muted-foreground mb-6 text-sm sm:text-base">
                   Interested in collaborating or have a project in mind? I'm
                   always open to discussing new opportunities and ideas.
                 </p>
-                <div className="flex gap-4">
+                <div className="flex gap-3 sm:gap-4 justify-center sm:justify-start">
                   <a
                     href={linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 rounded-full bg-card text-muted-foreground hover:text-blue-500 hover:bg-card/70 transition-colors"
+                    className="p-3 sm:p-4 rounded-full bg-card text-muted-foreground hover:text-blue-500 hover:bg-card/70 transition-colors"
+                    aria-label="LinkedIn Profile"
                   >
-                    <Linkedin size={24} />
+                    <Linkedin size={20} className="sm:w-6 sm:h-6" />
                   </a>
                   <a
                     href={githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 rounded-full bg-card text-muted-foreground hover:text-gray-300 hover:bg-card/70 transition-colors"
+                    className="p-3 sm:p-4 rounded-full bg-card text-muted-foreground hover:text-gray-300 hover:bg-card/70 transition-colors"
+                    aria-label="GitHub Profile"
                   >
-                    <Github size={24} />
+                    <Github size={20} className="sm:w-6 sm:h-6" />
                   </a>
                   <a
                     href={`mailto:${contactEmail}`}
-                    className="p-3 rounded-full bg-card text-muted-foreground hover:text-primary hover:bg-card/70 transition-colors"
+                    className="p-3 sm:p-4 rounded-full bg-card text-muted-foreground hover:text-primary hover:bg-card/70 transition-colors"
+                    aria-label="Send Email"
                   >
-                    <Mail size={24} />
+                    <Mail size={20} className="sm:w-6 sm:h-6" />
                   </a>
                 </div>
               </div>

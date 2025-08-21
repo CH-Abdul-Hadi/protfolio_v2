@@ -77,7 +77,7 @@ const Header: React.FC = () => {
             : 'bg-transparent'
         }`}
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 ">
           <div className="flex justify-between items-center">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2">

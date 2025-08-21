@@ -101,7 +101,7 @@ const ProjectCard = ({
       className="group"
     >
       <div
-        className={`relative h-full rounded-xl overflow-hidden transition-all duration-300 ${
+        className={`relative h-full rounded-xl overflow-hidden transition-all duration-300  ${
           activeProject === project.id
             ? "glass-panel border-primary glow-text"
             : "glass-panel border-transparent hover:border-primary/30"
