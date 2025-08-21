@@ -113,7 +113,7 @@ const Header: React.FC = () => {
               </a>
               
               {/* Portfolio Actions Dropdown */}
-              <DropdownMenu>
+              {/* <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <button 
                     className="rounded-md p-2 flex items-center hover:bg-accent transition-colors"
@@ -142,7 +142,7 @@ const Header: React.FC = () => {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
-              
+               */}
               {/* Mobile menu button */}
               <button
                 className="md:hidden rounded-md p-2 hover:bg-accent transition-colors"
