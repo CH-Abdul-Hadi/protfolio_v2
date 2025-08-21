@@ -120,7 +120,7 @@ const Footer = () => {
           <div className="text-xs text-foreground/50">© {currentYear} {name}</div>
           <div className="text-xs text-foreground/50">
             <span className="relative group">
-              Powered by <span className="text-primary font-mono">LiveInsight</span>
+              {/* Powered by <span className="text-primary font-mono"></span> */}
               <span className="absolute left-0 bottom-[-18px] w-full h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
             </span>
           </div>

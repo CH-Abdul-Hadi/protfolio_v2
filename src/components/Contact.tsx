@@ -45,10 +45,10 @@ const Contact = () => {
   const email = portfolio?.email || DEFAULT_USER.EMAIL;
   const linkedinUrl = portfolio?.socialLinks?.linkedin || DEFAULT_SOCIAL.LINKEDIN_URL;
   const githubUrl = portfolio?.socialLinks?.github || DEFAULT_SOCIAL.GITHUB_URL;
-  
+
   const githubUsername = githubUrl.split('/').pop() || DEFAULT_SOCIAL.GITHUB_USERNAME;
   const linkedinUsername = linkedinUrl.split('/').pop() || DEFAULT_SOCIAL.LINKEDIN_USERNAME;
-  
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -64,7 +64,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       if (!FORM_SETTINGS.GOOGLE_FORM_URL || !FORM_SETTINGS.GOOGLE_FORM_URL.includes('docs.google.com/forms')) {
         console.warn('Google Form URL is not properly configured:', FORM_SETTINGS.GOOGLE_FORM_URL);
@@ -85,7 +85,7 @@ const Contact = () => {
       formUrlEncoded.append(FORM_SETTINGS.GOOGLE_FORM_NAME_FIELD, formData.name);
       formUrlEncoded.append(FORM_SETTINGS.GOOGLE_FORM_EMAIL_FIELD, formData.email);
       formUrlEncoded.append(FORM_SETTINGS.GOOGLE_FORM_MESSAGE_FIELD, formData.message);
-      
+
       console.log('Form data:', formUrlEncoded.toString());
       console.log('Submitting to Google Form URL:', FORM_SETTINGS.GOOGLE_FORM_URL);
       console.log('Form fields:', {
@@ -103,14 +103,14 @@ const Contact = () => {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
       });
-      
+
       console.log('Form submission response:', response);
 
       toast({
         title: "Message sent!",
         description: "Thank you for reaching out. I'll get back to you soon.",
       });
-      
+
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -145,7 +145,7 @@ const Contact = () => {
               Have a question or want to work together? Feel free to reach out!
             </p>
           </motion.div>
-        
+
           <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10  ''}`}>
             <motion.div
               className="glass-panel p-8 rounded-xl order-2 lg:order-1"
@@ -168,7 +168,7 @@ const Contact = () => {
                     placeholder="John Doe"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-2 text-left pl-2">
                     Your Email
@@ -184,7 +184,7 @@ const Contact = () => {
                     placeholder="john@example.com"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium mb-2 text-left pl-2">
                     Message
@@ -200,7 +200,7 @@ const Contact = () => {
                     placeholder="Your message here..."
                   ></textarea>
                 </div>
-                
+
                 <button
                   type="submit"
                   disabled={isSubmitting}
@@ -216,7 +216,7 @@ const Contact = () => {
                 </button>
               </form>
             </motion.div>
-            
+
             <motion.div
               className="flex flex-col gap-6 order-1 lg:order-2"
               variants={itemVariants}
@@ -235,7 +235,7 @@ const Contact = () => {
                       </a>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="p-3 rounded-full bg-darktech-card text-darktech-holo-cyan shrink-0">
                       <Linkedin size={24} />
@@ -247,7 +247,7 @@ const Contact = () => {
                       </a>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="p-3 rounded-full bg-darktech-card text-darktech-cyber-pink shrink-0">
                       <Github size={24} />
@@ -261,30 +261,30 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="glass-panel p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-left">Let's Connect</h3>
                 <p className="text-darktech-muted mb-6 text-left">
                   Interested in collaborating or have a project in mind? I'm always open to discussing new opportunities and ideas.
                 </p>
                 <div className="flex gap-4">
-                  <a 
-                    href={linkedinUrl} 
-                    target="_blank" 
+                  <a
+                    href={linkedinUrl}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 rounded-full bg-darktech-card text-darktech-muted hover:text-darktech-holo-cyan hover:bg-darktech-card/70 transition-colors"
                   >
                     <Linkedin size={24} />
                   </a>
-                  <a 
-                    href={githubUrl} 
-                    target="_blank" 
+                  <a
+                    href={githubUrl}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 rounded-full bg-darktech-card text-darktech-muted hover:text-darktech-cyber-pink hover:bg-darktech-card/70 transition-colors"
                   >
                     <Github size={24} />
                   </a>
-                  <a 
+                  <a
                     href={`mailto:${email}`}
                     className="p-3 rounded-full bg-darktech-card text-darktech-muted hover:text-darktech-neon-green hover:bg-darktech-card/70 transition-colors"
                   >
@@ -301,3 +301,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
