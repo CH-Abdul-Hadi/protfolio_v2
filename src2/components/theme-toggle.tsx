@@ -181,7 +181,7 @@ export function ThemeToggle() {
                   </span>
                   <div>
                     <p className="text-white font-medium">
-                      Good to see you getting back to your senses!
+                      Good to see you getting back to Dark mode
                     </p>
                     <p className="mt-2 text-gray-300 text-sm">
                       Dark mode activated. Your eyes and developer cred thank you.
