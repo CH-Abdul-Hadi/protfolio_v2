@@ -1,0 +1,1375 @@
+{
+  "statusCode": 200,
+  "success": true,
+  "message": "Portfolio data processed successfully",
+  "data": {
+    "personalInfo": {
+      "name": "Abdul Hadi",
+      "title": "Fullstack Developer",
+      "summary": "A passionate coder exploring automation and looking out to build cool stuff. "
+    },
+    "experience": [
+      {
+        "company": "Quantum Web Innovation",
+        "title": "Freelancer Collaborator",
+        "dates": "Jan 2025 - Present",
+        "achievements": [
+          "Developed and optimized 10+ responsive React components with Tailwind CSS, reducing page load time by 10% and improving Lighthouse performance scores.",
+          "Implemented dynamic dashboards and reusable UI patterns, increasing development speed by 5% across multiple client projects.",
+          "Integrated RESTful APIs with React, ensuring seamless data flow and real-time updates for 10+ client-facing pages."
+        ]
+      },
+      {
+        "company": "Blood Disease & Daycare Center",
+        "title": "Freelancer Project for Clinic",
+        "dates": "Jun 2024 - Jun 2024",
+        "achievements": [
+          "Designed and delivered responsive web interfaces using React, Tailwind CSS, and JavaScript, achieving 95+ Lighthouse performance scores across multiple client projects.",
+          "Collaborated with clients to translate Figma designs into pixel-perfect, functional UIs, reducing revision cycles.",
+          "Successfully completed 5+ freelance projects with 100% client satisfaction, consistently delivering on time and meeting project requirements."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Agriculture, Peshawar",
+        "degree": "Bachelor in Computer Science",
+        "dates": "2022-2026",
+        "cgpa": "3.01/4"
+      },
+      {
+        "institution": "Saylani Mass IT Training SMIT",
+        "degree": "Mobile and Web Development",
+        "dates": "2024-2025",
+        "cgpa": "60%"
+      },
+      {
+        "institution": "Peshawar Model Degree Collage",
+        "degree": "FSC",
+        "dates": "2020-2022",
+        "cgpa": "76%"
+      }
+    ],
+    "projects": [
+      {
+        "id": "956103985",
+        "title": "Youtube Clone",
+        "description": "📺 YouTube Clone: A full-stack MERN experience! 🚀 Built with MongoDB, Express, React, and Node.js, it lets users create accounts 👤, upload videos 🎥, and share content seamlessly 🌍. With secure authentication 🔐, smooth video streaming ⚡, and interactive feeds 💬, this project sharpened my skills in frontend-backend integration and cloud storage. A true step towards mastering scalable apps! 🌟",
+        "technologies": ["JavaScript"],
+        "github": "https://github.com/CH-Abdul-Hadi/you-Clone",
+        "demo": "",
+        "image": "",
+        "featured": true,
+        "stars": 0,
+        "forks": 0,
+        "commits": 8,
+        "topics": ["Backend", "MERN", "Vite", "git", "JavaScript"],
+        "timeline": {
+          "created_at": "2025-08-13T00:00:00+05:00",
+          "updated_at": "2025-08-20T23:59:59+05:00",
+          "recent_commits": [
+            "2025-08-09T10:15:32Z",
+            "2025-08-09T10:15:32Z",
+            "2025-08-09T10:15:32Z",
+            "2025-08-08T14:47:11Z",
+            "2025-08-08T14:47:11Z",
+            "2025-08-06T09:23:45Z",
+            "2025-08-06T09:23:45Z",
+            "2025-08-05T18:59:08Z",
+            "2025-08-05T18:59:08Z",
+            "2025-07-30T07:40:22Z"
+          ],
+          "has_recent_activity": true
+        },
+        "source": "github"
+      },
+      {
+        "id": "Clinic-project",
+        "title": "Blood Disease & Daycare Center ",
+        "description": "Developed a responsive healthcare website for BD & DC Clinic using HTML, CSS, and Bootstrap. Designed clean layouts with a mobile-first approach, ensuring accessibility across devices. Implemented structured navigation and styled UI components to present clinic services, treatments, and contact details with clarity. Optimized performance and cross-browser compatibility to deliver a smooth user experience.",
+        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "Web3forms"],
+        "github": "https://github.com/CH-Abdul-Hadi/blood",
+        "demo": "",
+        "image": "",
+        "featured": true,
+        "timeline": {
+          "created_at": "2025-08-13T00:00:00Z",
+          "updated_at": "2025-08-20T23:59:59Z",
+          "has_recent_activity": false
+        },
+        "source": "github"
+      },
+      {
+        "id": "824159578",
+        "title": "Construction Website",
+        "description": "Crafted a sleek, responsive construction services website for Jhagra Construction using HTML, CSS, and Bootstrap. Architected a mobile-first layout with intuitive navigation across Home, Services, About Us, License, and Contact pages. Enhanced interactivity via JavaScript-driven sliders, animations, and a preloader for polished UX. Integrated dynamic components like a call-to-action banner and seamless contact links. Optimized performance and accessibility while maintaining consistent branding and cross-browser compatibility.",
+        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "Web3forms"],
+        "github": "https://github.com/CH-Abdul-Hadi/Jhagra-Construction",
+        "demo": "",
+        "image": "",
+        "featured": true,
+        "stars": 0,
+        "forks": 0,
+        "commits": 47,
+        "timeline": {
+          "created_at": "2025-08-13T00:00:00Z",
+          "updated_at": "2025-08-20T23:59:59Z",
+          "has_recent_activity": false
+        },
+        "source": "github"
+      },
+      {
+        "id": "QR Code Generator",
+        "title": "QR Code Generator",
+        "description": "Developed a lightweight, responsive QR code generator web app using HTML, CSS, and Bootstrap. Engineered a clean, mobile-first interface where users can input text or URLs and instantly preview and download generated QR codes in PNG format. Designed intuitive layout with form validation, styled buttons, and clear feedback for seamless UX. Ensured cross-browser compatibility and fast performance through efficient markup, modular styling, and minimal dependencies.",
+        "technologies": ["HTML", "CSS", "Tailwind", "JavaScript"],
+        "github": "",
+        "demo": "",
+        "image": "",
+        "featured": true,
+        "timeline": {
+          "created_at": "2024-01-01T00:00:00Z",
+          "updated_at": "2024-03-31T00:00:00Z",
+          "has_recent_activity": false
+        },
+        "source": "resume"
+      },
+      {
+        "id": "865419162",
+        "title": "Zentry Clone",
+        "description": "Recreated the visually immersive Zentry website as a responsive clone using React, Tailwind CSS, and GSAP. Built a component-driven UI with animated transitions, interactive sections, and mobile-first responsiveness. Leveraged Vite for fast development and seamless hot reloading, while ensuring cross-browser consistency, modular styling, and performant animations.",
+        "technologies": ["MERN", "JavaScript", "HTML", "CSS", "Tailwind"],
+        "github": "https://github.com/CH-Abdul-Hadi/Zentry-clone",
+        "demo": "",
+        "image": "",
+        "featured": true,
+        "stars": 0,
+        "forks": 1,
+        "commits": 0,
+
+        "timeline": {
+          "created_at": "2024-09-30T13:56:20Z",
+          "updated_at": "2025-05-07T10:50:03Z",
+
+          "has_recent_activity": false
+        },
+        "source": "github"
+      }
+    ],
+    "skills": [
+      "Programming Languages & Technologies",
+      "Databases & Infrastructure",
+      "AI & Development Tools"
+    ],
+    "socialLinks": {
+      "github": "https://github.com/CH-Abdul-Hadi",
+      "linkedin": "www.linkedin.com/in/abdul-hadi-shahid",
+      "codeforces": "https://codeforces.com/profile/Abdul016",
+      "email": "sabdulhadi016@gmail.com",
+      "phone": "+92-3279058035"
+    },
+    "insights": {
+      "topSkills": [
+        {
+          "name": "MongoDB",
+          "category": "Backend",
+          "proficiency": 40,
+          "justification": "Gained practical experience by building projects with MongoDB."
+        },
+        {
+          "name": "JavaScript",
+          "category": "Frontend",
+          "proficiency": 85,
+          "justification": "Practiced JavaScript through building a few projects to strengthen problem-solving and development skills."
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "proficiency": 50,
+          "justification": "Making 5+ RESTful endpoints and real-time systems implementation."
+        },
+
+        {
+          "name": "Express.js",
+          "category": "Backend",
+          "proficiency": 50,
+          "justification": "Practiced Express.js by building small backend projects, gaining experience in routing, middleware, and REST API development."
+        },
+
+        {
+          "name": "TypeScript",
+          "category": "Frontend",
+          "proficiency": 70,
+          "justification": "Used across multiple projects including web development and full-stack applications."
+        },
+
+        {
+          "name": "Firebase",
+          "category": "Cloud",
+          "proficiency": 60,
+          "justification": "Gained hands-on experience integrating Firebase for authentication, database & storage"
+        },
+        {
+          "name": "AI/ML Integration",
+          "category": "AI",
+          "proficiency": 35,
+          "justification": "Multiple projects using Gemini API."
+        },
+        {
+          "name": "Supabase",
+          "category": "Cloud",
+          "proficiency": 40,
+          "justification": "Gained hands-on experience integrating Firebase for authentication, database & storage"
+        }
+      ],
+      "technicalProfile": {
+        "primaryStack": [
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "NextJS",
+          "Firebase",
+          "MongoDB"
+        ],
+        "secondaryStack": ["vite", "Supabase", "Express.js", "React.js"],
+        "languages": [
+          {
+            "name": "JavaScript",
+            "proficiency": "Expert"
+          },
+
+          {
+            "name": "CSS",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "TailwindCss",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "Bootstrap",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "TypeScript",
+            "proficiency": "High"
+          }
+        ],
+        "methodologies": [
+          "Agile Development",
+          "RESTful API ",
+          "Microservices "
+        ],
+        "strengths": [
+          "Backend Development (Node.js, MongoDB)",
+          "AI-Driven  Development",
+          "Full-Stack Development"
+        ],
+        "growthAreas": [
+          "Cloud Platform Expertise (Firebase)",
+          "AI & Machine Learning Integration for SaaS",
+          "Advanced Frontend Framework Mastery (Next.js, React, Tailwind)"
+        ]
+      },
+      "careerTrajectory": "Rapidly progressing frontend-focused software engineer with expertise in web technologies, SaaS applications, and modern frameworks. Demonstrated leadership in guiding teams, delivering client projects, and exploring AI integration for scalable products.",
+      "careerRecommendations": {
+        "nextSteps": [
+          "Pursue cloud certifications (Firebase) to strengthen SaaS and infrastructure knowledge",
+          "Deepen AI and machine learning expertise for resume builder and future SaaS projects",
+          "Expand full-stack capabilities by mastering advanced backend and DevOps practices",
+          "Take on leadership roles in SaaS or startup environments to leverage team management skills",
+          "Contribute to open-source frontend or MERN stack projects to grow visibility and credibility"
+        ],
+        "potentialRoles": [
+          "Frontend Engineer (React/Next.js Specialist)",
+          "Full-Stack Developer (MERN)",
+          "SaaS Application Developer",
+          "Technical Lead / Team Lead",
+          "AI-Powered Application Developer"
+        ],
+        "skillsToAcquire": [
+          "Advanced cloud computing (AWS/GCP)",
+          "Scalable backend development with Node.js & Express",
+          "AI/ML integration for SaaS platforms",
+          "DevOps, CI/CD pipelines, and container orchestration",
+          "Advanced system design & architectural patterns",
+          "Leadership and client management skills"
+        ]
+      },
+      "summary": {
+        "strengths_analysis": "Strong frontend foundation with expertise in React, Next.js, Tailwind CSS, and SaaS-oriented development. Proven ability to lead teams, deliver client-facing projects, and build scalable MERN applications. Early exploration of AI integration for future SaaS growth.",
+        "career_trajectory": "Progressing from frontend development into full-stack SaaS engineering and leadership roles. Entrepreneurial mindset demonstrated through portfolio projects, freelance work, and SaaS product planning.",
+        "technical_focus": "Frontend-heavy with solid MERN stack knowledge, growing expertise in cloud platforms, and interest in AI-driven SaaS products. Positioned for full-stack and leadership opportunities.",
+        "learning_recommendations": "Focus on cloud certifications, DevOps practices, and AI/ML integration. Strengthen system design and leadership skills to move toward senior engineer or solutions architect roles in the next 2-3 years."
+      }
+    },
+    "techStack": [
+      {
+        "name": "Go",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+      },
+      {
+        "name": "Flutter",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "name": "C++",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "Python",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "name": "Dart",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+      },
+      {
+        "name": "C",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+      },
+      {
+        "name": "Firebase",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+      },
+      {
+        "name": "Docker",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      },
+      {
+        "name": "Express.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+      },
+      {
+        "name": "React.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "name": "Figma",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      }
+    ],
+    "resumeUrl": "https://drive.google.com/file/d/1blpY3MHPMosdykzKGxCy8UxK2NMhPEtb/view?usp=sharing",
+    "githubStats": {
+      "totalPublicRepos": 63,
+      "totalStars": 0,
+      "totalForks": 1,
+      "totalCommits": "215+",
+      "featuredRepos": 6
+    },
+    "githubData": {
+      "user": {
+        "login": "CH-Abdul-Hadi",
+        "name": "Abdul Hadi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/186373753?v=4",
+        "html_url": "https://github.com/CH-Abdul-Hadi",
+        "bio": "Front-End Web Developer || React.js || JavaScript || HTML || CSS || MERN Stack Learner ||",
+        "company": "None",
+        "location": "Pakistan",
+        "email": null,
+        "public_repos": 61,
+        "followers": 3,
+        "following": 8,
+        "created_at": "2024-10-26T07:22:21Z",
+        "updated_at": "2025-07-02T12:07:33Z"
+      },
+      "repositories": [
+        {
+          "name": "AgeCalculator",
+          "full_name": "CH-Abdul-Hadi/AgeCalculator",
+          "html_url": "https://github.com/CH-Abdul-Hadi/AgeCalculator",
+          "description": null,
+          "homepage": "https://age-calculator-chi-one.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-16T16:21:18Z",
+          "updated_at": "2025-03-17T19:07:45Z"
+        },
+        {
+          "name": "AirWater_v1",
+          "full_name": "CH-Abdul-Hadi/AirWater_v1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/AirWater_v1",
+          "description": null,
+          "homepage": "https://air-water-v1.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 1,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-05-30T05:05:44Z",
+          "updated_at": "2025-06-02T10:03:44Z"
+        },
+        {
+          "name": "apis-Assignment",
+          "full_name": "CH-Abdul-Hadi/apis-Assignment",
+          "html_url": "https://github.com/CH-Abdul-Hadi/apis-Assignment",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-12T15:19:16Z",
+          "updated_at": "2025-04-12T15:23:40Z"
+        },
+        {
+          "name": "backend-L2",
+          "full_name": "CH-Abdul-Hadi/backend-L2",
+          "html_url": "https://github.com/CH-Abdul-Hadi/backend-L2",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-23T11:25:48Z",
+          "updated_at": "2025-06-23T11:26:07Z"
+        },
+        {
+          "name": "blood",
+          "full_name": "CH-Abdul-Hadi/blood",
+          "html_url": "https://github.com/CH-Abdul-Hadi/blood",
+          "description": null,
+          "homepage": "https://bddc.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-06T07:32:45Z",
+          "updated_at": "2025-08-07T08:35:42Z"
+        },
+        {
+          "name": "bootstarp-chess",
+          "full_name": "CH-Abdul-Hadi/bootstarp-chess",
+          "html_url": "https://github.com/CH-Abdul-Hadi/bootstarp-chess",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-28T17:02:36Z",
+          "updated_at": "2025-04-28T17:02:45Z"
+        },
+        {
+          "name": "Bootstrap-login-form",
+          "full_name": "CH-Abdul-Hadi/Bootstrap-login-form",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Bootstrap-login-form",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-28T16:47:47Z",
+          "updated_at": "2025-04-28T16:47:57Z"
+        },
+        {
+          "name": "Calculator",
+          "full_name": "CH-Abdul-Hadi/Calculator",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Calculator",
+          "description": null,
+          "homepage": "https://calculator-tawny-sigma.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-20T06:35:18Z",
+          "updated_at": "2025-04-29T16:57:32Z"
+        },
+        {
+          "name": "CH-Abdul-Hadi",
+          "full_name": "CH-Abdul-Hadi/CH-Abdul-Hadi",
+          "html_url": "https://github.com/CH-Abdul-Hadi/CH-Abdul-Hadi",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": null,
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-07T10:49:57Z",
+          "updated_at": "2025-04-28T16:33:06Z"
+        },
+        {
+          "name": "chess-html",
+          "full_name": "CH-Abdul-Hadi/chess-html",
+          "html_url": "https://github.com/CH-Abdul-Hadi/chess-html",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-28T17:05:39Z",
+          "updated_at": "2025-04-28T17:05:48Z"
+        },
+        {
+          "name": "dashboard",
+          "full_name": "CH-Abdul-Hadi/dashboard",
+          "html_url": "https://github.com/CH-Abdul-Hadi/dashboard",
+          "description": null,
+          "homepage": "https://dashboard-lyart-phi.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-01T07:45:52Z",
+          "updated_at": "2025-02-03T08:54:29Z"
+        },
+        {
+          "name": "DigitalClock",
+          "full_name": "CH-Abdul-Hadi/DigitalClock",
+          "html_url": "https://github.com/CH-Abdul-Hadi/DigitalClock",
+          "description": null,
+          "homepage": "https://digital-clock-one-omega.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-16T16:35:12Z",
+          "updated_at": "2025-03-17T18:59:34Z"
+        },
+        {
+          "name": "E-store1-main",
+          "full_name": "CH-Abdul-Hadi/E-store1-main",
+          "html_url": "https://github.com/CH-Abdul-Hadi/E-store1-main",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2024-10-26T08:48:30Z",
+          "updated_at": "2024-10-26T09:25:28Z"
+        },
+        {
+          "name": "Environment-website",
+          "full_name": "CH-Abdul-Hadi/Environment-website",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Environment-website",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-05-28T11:36:35Z",
+          "updated_at": "2025-05-28T11:36:52Z"
+        },
+        {
+          "name": "foodpanda_clone",
+          "full_name": "CH-Abdul-Hadi/foodpanda_clone",
+          "html_url": "https://github.com/CH-Abdul-Hadi/foodpanda_clone",
+          "description": null,
+          "homepage": "https://foodpanda-clone-beige.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-14T14:16:40Z",
+          "updated_at": "2025-02-14T15:15:11Z"
+        },
+        {
+          "name": "Hassaan_portfolio_v1",
+          "full_name": "CH-Abdul-Hadi/Hassaan_portfolio_v1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Hassaan_portfolio_v1",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-07-19T18:21:24Z",
+          "updated_at": "2025-07-19T18:21:32Z"
+        },
+        {
+          "name": "HassanPortfolio",
+          "full_name": "CH-Abdul-Hadi/HassanPortfolio",
+          "html_url": "https://github.com/CH-Abdul-Hadi/HassanPortfolio",
+          "description": null,
+          "homepage": "https://qureshi.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-24T18:03:35Z",
+          "updated_at": "2025-07-28T12:16:13Z"
+        },
+        {
+          "name": "html",
+          "full_name": "CH-Abdul-Hadi/html",
+          "html_url": "https://github.com/CH-Abdul-Hadi/html",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-04T11:55:01Z",
+          "updated_at": "2025-02-04T11:56:09Z"
+        },
+        {
+          "name": "Image-Gallary",
+          "full_name": "CH-Abdul-Hadi/Image-Gallary",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Image-Gallary",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-20T06:36:12Z",
+          "updated_at": "2025-03-20T06:47:47Z"
+        },
+        {
+          "name": "Jhagra-Construction",
+          "full_name": "CH-Abdul-Hadi/Jhagra-Construction",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Jhagra-Construction",
+          "description": null,
+          "homepage": "https://jhagraconstruction.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-25T19:59:10Z",
+          "updated_at": "2025-06-26T20:06:45Z"
+        },
+        {
+          "name": "Js-mini-projects",
+          "full_name": "CH-Abdul-Hadi/Js-mini-projects",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Js-mini-projects",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-16T08:43:24Z",
+          "updated_at": "2025-03-16T08:43:39Z"
+        },
+        {
+          "name": "JS-notes",
+          "full_name": "CH-Abdul-Hadi/JS-notes",
+          "html_url": "https://github.com/CH-Abdul-Hadi/JS-notes",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-26T15:34:45Z",
+          "updated_at": "2025-02-27T15:05:36Z"
+        },
+        {
+          "name": "js-practical-1",
+          "full_name": "CH-Abdul-Hadi/js-practical-1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js-practical-1",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-17T16:31:11Z",
+          "updated_at": "2025-01-17T16:31:24Z"
+        },
+        {
+          "name": "js-practical-2",
+          "full_name": "CH-Abdul-Hadi/js-practical-2",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js-practical-2",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-24T14:43:52Z",
+          "updated_at": "2025-01-24T14:44:09Z"
+        },
+        {
+          "name": "js-practical-3",
+          "full_name": "CH-Abdul-Hadi/js-practical-3",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js-practical-3",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-01T12:08:04Z",
+          "updated_at": "2025-02-01T12:08:21Z"
+        },
+        {
+          "name": "js-star-triangle-mini-quize-game",
+          "full_name": "CH-Abdul-Hadi/js-star-triangle-mini-quize-game",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js-star-triangle-mini-quize-game",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-24T15:14:03Z",
+          "updated_at": "2025-01-24T15:15:23Z"
+        },
+        {
+          "name": "JS-Tasks-class-work",
+          "full_name": "CH-Abdul-Hadi/JS-Tasks-class-work",
+          "html_url": "https://github.com/CH-Abdul-Hadi/JS-Tasks-class-work",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-21T10:23:04Z",
+          "updated_at": "2025-01-21T10:23:19Z"
+        },
+        {
+          "name": "js_practical-_4",
+          "full_name": "CH-Abdul-Hadi/js_practical-_4",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js_practical-_4",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-09T14:22:41Z",
+          "updated_at": "2025-02-09T14:22:58Z"
+        },
+        {
+          "name": "js_practical_5",
+          "full_name": "CH-Abdul-Hadi/js_practical_5",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js_practical_5",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-16T14:35:00Z",
+          "updated_at": "2025-02-16T14:35:22Z"
+        },
+        {
+          "name": "js_practical_6",
+          "full_name": "CH-Abdul-Hadi/js_practical_6",
+          "html_url": "https://github.com/CH-Abdul-Hadi/js_practical_6",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-22T15:45:41Z",
+          "updated_at": "2025-02-22T15:45:59Z"
+        },
+        {
+          "name": "learning-Backend-basic",
+          "full_name": "CH-Abdul-Hadi/learning-Backend-basic",
+          "html_url": "https://github.com/CH-Abdul-Hadi/learning-Backend-basic",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-20T15:25:18Z",
+          "updated_at": "2025-06-20T15:25:35Z"
+        },
+        {
+          "name": "LearnReact",
+          "full_name": "CH-Abdul-Hadi/LearnReact",
+          "html_url": "https://github.com/CH-Abdul-Hadi/LearnReact",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-05-02T07:40:29Z",
+          "updated_at": "2025-05-02T16:10:52Z"
+        },
+        {
+          "name": "Login-Form1",
+          "full_name": "CH-Abdul-Hadi/Login-Form1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Login-Form1",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-01T16:50:45Z",
+          "updated_at": "2025-01-01T17:00:48Z"
+        },
+        {
+          "name": "login-form2",
+          "full_name": "CH-Abdul-Hadi/login-form2",
+          "html_url": "https://github.com/CH-Abdul-Hadi/login-form2",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-01T16:51:09Z",
+          "updated_at": "2025-01-01T16:59:16Z"
+        },
+        {
+          "name": "model-Practices",
+          "full_name": "CH-Abdul-Hadi/model-Practices",
+          "html_url": "https://github.com/CH-Abdul-Hadi/model-Practices",
+          "description": "Created with StackBlitz ⚡️",
+          "homepage": "https://stackblitz.com/edit/stackblitz-starters-sdhahmhu",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-07-29T11:12:06Z",
+          "updated_at": "2025-07-30T07:31:56Z"
+        },
+        {
+          "name": "myPortfoilo_v1",
+          "full_name": "CH-Abdul-Hadi/myPortfoilo_v1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/myPortfoilo_v1",
+          "description": null,
+          "homepage": "https://my-portfoilo-v1.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-11T16:09:15Z",
+          "updated_at": "2025-06-11T16:25:54Z"
+        },
+        {
+          "name": "My_first_react_app",
+          "full_name": "CH-Abdul-Hadi/My_first_react_app",
+          "html_url": "https://github.com/CH-Abdul-Hadi/My_first_react_app",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-24T07:47:47Z",
+          "updated_at": "2025-02-24T07:49:00Z"
+        },
+        {
+          "name": "netflix",
+          "full_name": "CH-Abdul-Hadi/netflix",
+          "html_url": "https://github.com/CH-Abdul-Hadi/netflix",
+          "description": null,
+          "homepage": "https://netflix-alpha-five.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-14T08:35:54Z",
+          "updated_at": "2025-06-19T09:05:03Z"
+        },
+        {
+          "name": "nextjs-dashboard",
+          "full_name": "CH-Abdul-Hadi/nextjs-dashboard",
+          "html_url": "https://github.com/CH-Abdul-Hadi/nextjs-dashboard",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "TypeScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2024-10-26T08:59:14Z",
+          "updated_at": "2024-10-26T09:11:50Z"
+        },
+        {
+          "name": "on-click-change-background-color",
+          "full_name": "CH-Abdul-Hadi/on-click-change-background-color",
+          "html_url": "https://github.com/CH-Abdul-Hadi/on-click-change-background-color",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-07T09:54:38Z",
+          "updated_at": "2025-03-07T09:54:48Z"
+        },
+        {
+          "name": "online-2",
+          "full_name": "CH-Abdul-Hadi/online-2",
+          "html_url": "https://github.com/CH-Abdul-Hadi/online-2",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-31T13:59:02Z",
+          "updated_at": "2025-01-31T13:59:51Z"
+        },
+        {
+          "name": "PH-Scale",
+          "full_name": "CH-Abdul-Hadi/PH-Scale",
+          "html_url": "https://github.com/CH-Abdul-Hadi/PH-Scale",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-01T16:22:08Z",
+          "updated_at": "2025-01-01T16:22:41Z"
+        },
+        {
+          "name": "portfolio",
+          "full_name": "CH-Abdul-Hadi/portfolio",
+          "html_url": "https://github.com/CH-Abdul-Hadi/portfolio",
+          "description": null,
+          "homepage": "https://portfolio-seven-theta-12.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-01T19:04:17Z",
+          "updated_at": "2025-03-20T06:47:38Z"
+        },
+        {
+          "name": "Portfolio-1",
+          "full_name": "CH-Abdul-Hadi/Portfolio-1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Portfolio-1",
+          "description": null,
+          "homepage": "https://portfolio-1-silk-phi.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-11T16:02:42Z",
+          "updated_at": "2025-01-14T09:46:20Z"
+        },
+        {
+          "name": "Portfolio-react",
+          "full_name": "CH-Abdul-Hadi/Portfolio-react",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Portfolio-react",
+          "description": null,
+          "homepage": "https://abdul-hadi.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-04T18:40:44Z",
+          "updated_at": "2025-07-16T06:43:39Z"
+        },
+        {
+          "name": "Portofolio_v1",
+          "full_name": "CH-Abdul-Hadi/Portofolio_v1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Portofolio_v1",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-16T17:07:07Z",
+          "updated_at": "2025-06-03T10:46:56Z"
+        },
+        {
+          "name": "Portofolio_V2",
+          "full_name": "CH-Abdul-Hadi/Portofolio_V2",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Portofolio_V2",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-03T11:13:52Z",
+          "updated_at": "2025-06-03T11:14:01Z"
+        },
+        {
+          "name": "project",
+          "full_name": "CH-Abdul-Hadi/project",
+          "html_url": "https://github.com/CH-Abdul-Hadi/project",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-11T15:58:57Z",
+          "updated_at": "2025-01-11T15:59:18Z"
+        },
+        {
+          "name": "project-main",
+          "full_name": "CH-Abdul-Hadi/project-main",
+          "html_url": "https://github.com/CH-Abdul-Hadi/project-main",
+          "description": null,
+          "homepage": "https://project-main-delta.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-11T20:06:05Z",
+          "updated_at": "2025-01-13T07:40:20Z"
+        },
+        {
+          "name": "Project1",
+          "full_name": "CH-Abdul-Hadi/Project1",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Project1",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-01-03T15:52:36Z",
+          "updated_at": "2025-01-07T09:29:44Z"
+        },
+        {
+          "name": "QR-generator",
+          "full_name": "CH-Abdul-Hadi/QR-generator",
+          "html_url": "https://github.com/CH-Abdul-Hadi/QR-generator",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-16T09:09:17Z",
+          "updated_at": "2025-06-16T09:09:26Z"
+        },
+        {
+          "name": "RandomPassword",
+          "full_name": "CH-Abdul-Hadi/RandomPassword",
+          "html_url": "https://github.com/CH-Abdul-Hadi/RandomPassword",
+          "description": null,
+          "homepage": "https://random-password-brown.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-16T16:33:44Z",
+          "updated_at": "2025-03-17T19:00:37Z"
+        },
+        {
+          "name": "Rock-paper-Scissors-main",
+          "full_name": "CH-Abdul-Hadi/Rock-paper-Scissors-main",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Rock-paper-Scissors-main",
+          "description": null,
+          "homepage": "https://rock-paper-scissors-xi-lilac.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2024-10-26T08:41:20Z",
+          "updated_at": "2025-03-13T06:33:58Z"
+        },
+        {
+          "name": "techRepo",
+          "full_name": "CH-Abdul-Hadi/techRepo",
+          "html_url": "https://github.com/CH-Abdul-Hadi/techRepo",
+          "description": null,
+          "homepage": "https://tech-repo.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-02-02T14:43:18Z",
+          "updated_at": "2025-03-13T06:35:18Z"
+        },
+        {
+          "name": "TextUtils",
+          "full_name": "CH-Abdul-Hadi/TextUtils",
+          "html_url": "https://github.com/CH-Abdul-Hadi/TextUtils",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-19T07:18:48Z",
+          "updated_at": "2025-03-19T16:37:40Z"
+        },
+        {
+          "name": "Tic-tac-main",
+          "full_name": "CH-Abdul-Hadi/Tic-tac-main",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Tic-tac-main",
+          "description": null,
+          "homepage": "https://tic-tac-lilac.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2024-10-26T08:48:35Z",
+          "updated_at": "2025-03-13T06:36:44Z"
+        },
+        {
+          "name": "toApp",
+          "full_name": "CH-Abdul-Hadi/toApp",
+          "html_url": "https://github.com/CH-Abdul-Hadi/toApp",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "HTML",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-06-16T09:07:33Z",
+          "updated_at": "2025-06-16T09:07:42Z"
+        },
+        {
+          "name": "trading-app-clone",
+          "full_name": "CH-Abdul-Hadi/trading-app-clone",
+          "html_url": "https://github.com/CH-Abdul-Hadi/trading-app-clone",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-24T09:48:35Z",
+          "updated_at": "2025-04-24T09:49:01Z"
+        },
+        {
+          "name": "WordCounter",
+          "full_name": "CH-Abdul-Hadi/WordCounter",
+          "html_url": "https://github.com/CH-Abdul-Hadi/WordCounter",
+          "description": null,
+          "homepage": "https://word-counter-theta-taupe.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "CSS",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-03-16T16:30:23Z",
+          "updated_at": "2025-03-17T19:02:38Z"
+        },
+        {
+          "name": "you-Clone",
+          "full_name": "CH-Abdul-Hadi/you-Clone",
+          "html_url": "https://github.com/CH-Abdul-Hadi/you-Clone",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 0,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-07-30T13:32:58Z",
+          "updated_at": "2025-08-09T06:49:05Z"
+        },
+        {
+          "name": "Zentry-clone",
+          "full_name": "CH-Abdul-Hadi/Zentry-clone",
+          "html_url": "https://github.com/CH-Abdul-Hadi/Zentry-clone",
+          "description": null,
+          "homepage": "https://zentry-clone-iota-orpin.vercel.app",
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "forks_count": 1,
+          "language": "JavaScript",
+          "topics": [],
+          "commits": "N/A",
+          "created_at": "2025-04-14T08:38:58Z",
+          "updated_at": "2025-04-29T10:08:33Z"
+        }
+      ],
+
+      "languageStats": {
+        "CSS": "50.8",
+        "JavaScript": "25.6",
+        "HTML": "23.6"
+      },
+      "recentActivity": [
+        {
+          "type": "PushEvent",
+          "repo": "CH-Abdul-Hadi/you-Clone",
+          "created_at": "2025-08-09T06:49:03Z",
+          "payload": {
+            "commits": 1,
+            "ref": "refs/heads/main"
+          }
+        },
+        {
+          "type": "PushEvent",
+          "repo": "CH-Abdul-Hadi/blood",
+          "created_at": "2025-08-07T08:35:40Z",
+          "payload": {
+            "commits": 1,
+            "ref": "refs/heads/main"
+          }
+        },
+        {
+          "type": "PushEvent",
+          "repo": "CH-Abdul-Hadi/you-Clone",
+          "created_at": "2025-08-06T09:25:38Z",
+          "payload": {
+            "commits": 1,
+            "ref": "refs/heads/main"
+          }
+        },
+        {
+          "type": "PushEvent",
+          "repo": "CH-Abdul-Hadi/you-Clone",
+          "created_at": "2025-08-06T07:45:35Z",
+          "payload": {
+            "commits": 1,
+            "ref": "refs/heads/main"
+          }
+        },
+        {
+          "type": "PushEvent",
+          "repo": "CH-Abdul-Hadi/model-Practices",
+          "created_at": "2025-07-30T07:31:54Z",
+          "payload": {
+            "commits": 1,
+            "ref": "refs/heads/main"
+          }
+        }
+      ]
+    },
+    "achievements": [
+      "Built and deployed multiple full-stack applications using MERN, Firebase, and modern frontend frameworks to strengthen practical development expertise"
+    ]  
+  }
+}
