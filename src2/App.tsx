@@ -52,7 +52,7 @@ const App = () => {
           
           <Footer />
           <Toaster />
-          <TemplateSwitcher />
+          {/* <TemplateSwitcher /> */}
         </div>
         </div>
       </PortfolioProvider>
