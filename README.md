@@ -75,24 +75,4 @@ Switch themes instantly by appending the appropriate query parameter to your dep
 - npm or Yarn  
 - (Optional) Portfolio Automation API key for enhanced resume data integration :contentReference[oaicite:16]{index=16}
 
-### Installation
 
-# Clone this repository
-git clone https://github.com/CH-Abdul-Hadi/protfolio_v2.git
-cd protfolio_v2
-
-# Install dependencies
-npm install
-# or
-yarn install
-
-# Create .env from sample
-cp .env.sample .env
-
-# (Optional) Add your Portfolio Automation API key in .env:
-# PORTFOLIO_AUTOMATION_API_KEY=your_api_key_here
-
-# Run development server
-npm run dev
-# or
-yarn dev
